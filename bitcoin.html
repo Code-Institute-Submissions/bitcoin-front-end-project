@@ -1,0 +1,479 @@
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Cryto currency</title>
+      
+      <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" />
+      <link rel="stylesheet" href="static/css/dc.min.css" type="text/css" />
+      <link rel="stylesheet" href="static/css/main.css" type="text/css" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      
+      <style>
+
+     span.tablespace{
+
+width:50px;
+
+      }
+      .buttonTable {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #98fa4b;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+   </head>
+   
+   <body>
+       
+      <!----- navbar ------>
+      
+<nav class="navbar navbar-expand-md navbar-dark bg-dark " style="border-radius:0px;;">
+  <a class="navbar-brand" href="index.html" >
+    <img src="assets/crypto-logo.png" style="height:70px; width:110px; margin-top:-20px;">
+  </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="bitcoin.html" style="color:	#FFD700; font-size:20px; margin-left:1000px;">
+        BITCOIN
+        </a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+  
+  
+<main>
+
+</section>
+      
+  
+
+<a href="#" style="height:50px; width:50px;"class="btn btn-default pull-right reset-all"  onclick='location.reload();' value='Refresh Page'>
+Reset All
+</a>
+
+      <!----- graph.js charts ------>
+      
+      
+         
+         
+         <!----- Bar chart------>
+         <section style="background: rgb(247,236,59);
+background: linear-gradient(0deg, rgba(247,236,59,1) 27%, rgba(251,236,121,0.711922268907563) 49%, rgba(251,245,166,0.7791491596638656) 74%);">
+         <section class="section center" >
+            <div class="container-fluid">
+               <div class="row ">
+                  <div class="col-xs-12 col-sm-12 ">
+                     <div id="quarter">
+                     </div>
+                  </div>
+               </div>
+               <div class="container-fluid">
+                  <h4 class="section-heading text-center col-xs-12 col-sm-offset-2 col-sm-8">
+                   
+                  </h4>
+               </div>
+            </div>
+         </section>
+         </section>  
+
+          <!----- Bar chart------>
+<section style="background-color:white;">
+  <section class="section center" >
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-xs-12 col-sm-12 ">
+          <div id="quarter1" style="margin-left:30%; margin-bottom:30px;">
+          </div>
+            <br><br><br>
+        </div>
+            <br><br><br>
+                <h2 style="margin-left:30%;" >
+                Total Average of each quarter you choose(on bar chart)
+                </h2>
+    <div id="theTotal2" >
+
+      <table class="table table-hover dc-data-table dc-chart" style="width:200px; margin-left:60%;">
+        <thead>
+          <tr>
+            <th class="dc-table-head">
+            Date
+            </th>
+          </tr>
+        </thead>
+          <tbody>
+            <tr class="dc-table-section dc-table-group info">
+              <td class="dc-table-column _0" style="background-color:#3182bd">
+              2015-01-01
+              </td>
+            </tr>
+            <tr class="dc-table-row">
+              <td class="dc-table-column _0" style="background-color:#6baed6">
+              2015-05-01
+              </td>
+            </tr>
+            <tr class="dc-table-row">
+              <td class="dc-table-column _0" style="background-color:#9ecae1">
+              2015-09-01
+              </td>
+            </tr>
+            <tr class="dc-table-row">
+              <td class="dc-table-column _0" style="background-color:#c6dbef">
+              2016-01-01
+              </td>
+            </tr>
+            <tr class="dc-table-row">
+              <td class="dc-table-column _0" style="background-color:#e6550d">
+              2014-09-01
+              </td>
+            </tr>
+            <tr class="dc-table-row">
+              <td class="dc-table-column _0" style="background-color:#fd8d3c">
+              2016-05-01
+              </td>
+            </tr>
+            <tr class="dc-table-row">
+              <td class="dc-table-column _0" style="background-color:#fdae6b">
+              2016-09-01
+              </td>
+            </tr>
+            <tr class="dc-table-row">
+              <td class="dc-table-column _0" style="background-color:#fdd0a2">
+              2017-01-01
+              </td>
+            </tr>
+            <tr class="dc-table-row">
+              <td class="dc-table-column _0" style="background-color:#31a354">
+              2017-05-01
+              </td>
+            </tr>
+              <td class="dc-table-column _0" style="background-color:#74c476">
+              2019-01-01
+              </td>
+            </tr>
+            <tr class="dc-table-row">
+                <td class="dc-table-column _0" style="background-color:#a1d99b">
+                2017-09-01
+                </td>
+            </tr>
+            <tr class="dc-table-row">
+              <td class="dc-table-column _0" style="background-color:#c7e9c0">
+              2018-09-01
+              </td>
+            </tr>
+            <tr class="dc-table-row">
+              <td class="dc-table-column _0" style="background-color:#756bb1">
+              2018-05-01
+              </td>
+            </tr>
+            <tr class="dc-table-row">
+              <td class="dc-table-column _0" style="background-color:#9e9ac8">
+              2019-09-01
+              </td>
+            </tr>
+            <tr class="dc-table-row">
+              <td class="dc-table-column _0" style="background-color:#bcbddc">
+              2019-05-01
+              </td>
+            </tr>
+            <tr class="dc-table-row">
+              <td class="dc-table-column _0" style="background-color:#dadaeb">
+              2020-01-01
+              </td>
+            </tr>
+            <tr class="dc-table-row">
+              <td class="dc-table-column _0" style="background-color:#636363">
+              2018-01-01
+              </td>
+            </tr>
+            <tr class="dc-table-row">
+    </div>
+                     
+      </div>
+    </div>
+  </div>
+</div>
+               <br>
+               <div class="container-fluid">
+                  
+<table id="customers" style="margin-left:25%;">
+  <tr>
+    <th>Date</th>
+    <th>Close</th>
+    <th>High</th>
+    <th>Low</th>
+    
+  </tr>
+  <tr>
+    <td id="QrtDate">2014-09-01   <span class="tablespace "></span><button onclick="myFunction0()" class="button buttonTable">Click to get insights below</button></td>
+    <td id="QrtClose">386.944</td>
+    <td id="QrtHigh">468.174011</td>
+    <td id="QrtLow">372.23999</td>
+    
+  </tr>
+  <tr>
+    <td id="QrtDate">2015-01-01   <span class="tablespace"></span><button onclick="myFunction1()" class="button buttonTable">Click to get insights below</button></td>
+    <td id="QrtClose">217.464005</td>
+    <td id="QrtHigh">320.434998</td>
+    <td id="QrtLow">171.509995</td>
+   
+  </tr>
+  <tr>
+    <td id="QrtDate">2015-05-01   <span class="tablespace"></span><button onclick="myFunction2()" class="button buttonTable">Click to get insights below</button></td>
+    <td id="QrtClose">230.190002</td>
+    <td id="QrtHigh">247.804001</td>
+    <td id="QrtLow">228.572998</td>
+    
+  </tr>
+  <tr>
+    <td id="QrtDate">2015-09-01   <span class="tablespace"></span><button onclick="myFunction3()" class="button buttonTable">Click to get insights below</button></td>
+    <td id="QrtClose">236.059998</td>
+    <td id="QrtHigh">259.182007</td>
+    <td id="QrtLow">225.117004</td>
+    
+  </tr>
+  <tr>
+    <td id="QrtDate">2016-01-01   <span class="tablespace"></span><button onclick="myFunction5()" class="button buttonTable">Click to get insights below</button></td>
+    <td id="QrtClose">368.766998</td>
+    <td id="QrtHigh">462.93399</td>
+    <td id="QrtLow">354.914001</td>
+    
+  </tr>
+  <tr>
+    <td id="QrtDate">2016-05-01   <span class="tablespace"></span><button onclick="myFunction6()" class="button buttonTable">Click to get insights below</button></td>
+    <td id="QrtClose">531.385986</td>
+    <td id="QrtHigh">553.960022</td>
+    <td id="QrtLow">437.389008</td>
+    
+  </tr>
+  <tr>
+    <td id="QrtDate">2016-09-01   <span class="tablespace"></span><button onclick="myFunction7()" class="button buttonTable">Click to get insights below</button></td>
+    <td id="QrtClose">609.734985</td>
+    <td id="QrtHigh">628.817993</td>
+    <td id="QrtLow">570.810974</td>
+    
+  </tr>
+  <tr>
+    <td id="QrtDate">2017-01-01   <span class="tablespace"></span><button onclick="myFunction8()" class="button buttonTable">Click to get insights below</button></td>
+    <td id="QrtClose">970.403015</td>
+    <td id="QrtHigh">1191.099976</td>
+    <td id="QrtLow">755.755981</td>
+    
+  </tr>
+  <tr>
+    <td id="QrtDate">2017-05-01   <span class="tablespace"></span><button onclick="myFunction9()" class="button buttonTable">Click to get insights below</button></td>
+    <td id="QrtClose">2286.409912</td>
+    <td id="QrtHigh">2763.709961</td>
+    <td id="QrtLow">1348.300049</td>
+    
+  </tr>
+  <tr>
+    <td id="QrtDate">2017-09-01   <span class="tablespace"></span><button onclick="myFunction10()" class="button buttonTable">Click to get insights below</button></td>
+    <td id="QrtClose">4338.709961</td>
+    <td id="QrtHigh">4975.040039</td>
+    <td id="QrtLow">2946.620117</td>
+    
+  </tr>
+  <tr>
+    <td id="QrtDate">2018-01-01   <span class="tablespace"></span><button onclick="myFunction11()" class="button buttonTable">Click to get insights below</button></td>
+    <td id="QrtClose">10221.099609</td>
+    <td id="QrtHigh">17712.400391</td>
+    <td id="QrtLow">9402.290039</td>
+    
+  </tr>
+  <tr>
+    <td id="QrtDate">2018-05-01   <span class="tablespace"></span><button onclick="myFunction12()" class="button buttonTable">Click to get insights below</button></td>
+    <td id="QrtClose">7494.169922</td>
+    <td id="QrtHigh">9964.5</td>
+    <td id="QrtLow">7090.680176</td>
+    
+  </tr>
+  <tr>
+    <td id="QrtDate">2018-09-01   <span class="tablespace"></span><button onclick="myFunction13()" class="button buttonTable">Click to get insights below</button></td>
+    <td id="QrtClose">6625.560059</td>
+    <td id="QrtHigh">7388.430176</td>
+    <td id="QrtLow">6197.52002</td>
+    
+  </tr>
+  <tr>
+    <td id="QrtDate">2019-01-01   <span class="tablespace"></span><button onclick="myFunction14()" class="button buttonTable">Click to get insights below</button></td>
+    <td id="QrtClose">3457.792725</td>
+    <td id="QrtHigh">4109.020996</td>
+    <td id="QrtLow">3400.819824</td>
+   
+  </tr>
+
+  <tr>
+    <td id="QrtDate">2019-05-01   <span class="tablespace"></span><button onclick="myFunction15()" class="button buttonTable">Click to get insights below</button></td>
+    <td id="QrtClose">8574.501953</td>
+    <td id="QrtHigh">9008.314453</td>
+    <td id="QrtLow">5347.645996</td>
+   
+  </tr>
+   <tr>
+    <td id="QrtDate">2019-09-01   <span class="tablespace"></span><button onclick="myFunction16()" class="button buttonTable">Click to get insights below</button></td>
+    <td id="QrtClose">8293.868164</td>
+    <td id="QrtHigh">10898.761719</td>
+    <td id="QrtLow">7830.758789</td>
+   
+  </tr>
+   <tr>
+    <td id="QrtDate">2020-01-01   <span class="tablespace"></span><button onclick="myFunction17()" class="button buttonTable">Click to get insights below</button></td>
+    <td id="QrtClose">9350.529297</td>
+    <td id="QrtHigh">9553.125977</td>
+    <td id="QrtLow">6914.996094</td>
+   
+  </tr>
+</table>
+                  
+               </div>
+            </div>
+         </section>
+         </section>  
+         
+          <!----- Bar chart------>
+         <section style="background: rgb(247,236,59);
+background: linear-gradient(0deg, rgba(247,236,59,1) 27%, rgba(251,236,121,0.711922268907563) 49%, rgba(251,245,166,0.7791491596638656) 74%);">
+         <section class="section center" >
+            <div class="container-fluid">
+               <div class="row ">
+                  <div class="col-xs-12 col-sm-12 ">
+                     <div id="yearly" style="margin-left:12%;">
+                     </div>
+                  </div>
+               </div>
+               <div class="container-fluid">
+                  <h4 class="section-heading text-center col-xs-12 col-sm-offset-2 col-sm-8">
+                   
+                  </h4>
+               </div>
+            </div>
+         </section>
+         </section>  
+           
+           <section style="background-color: white;">
+         <section class="section center" >
+            <div class="container-fluid">
+               <div class="row ">
+                  <div class="col-xs-12 col-sm-12 ">
+                  <h2 style="font-size:30px;font-weight: bold;">INSIGHTS</h2>
+                  <br><br>
+                  <h3 style="font-size:25px;font-weight: bold;color:blue;">Click on a date in the above table to get insights here</h3>
+                  <p style="font-size:15px;">What were the market analysts were saying during this period</p>
+                  <br>
+                  <h3 style="font-weight: bold;">Date</h3>
+                  <div style="font-size:20px;">
+                     <div id="Tableinsights" >
+                     </div>
+                     <div id="Tableinsights2" >
+                       </div>
+                     <div id="Tableinsights3" >
+                     </div>
+                     <div id="Tableinsights4" >
+                       </div>
+                     <div id="Tableinsights5" >
+                     </div>
+                     <div id="Tableinsights6" >
+                       </div>
+                     <div id="Tableinsights7" >
+                     </div>
+                     <div id="Tableinsights8" >
+                       </div>
+                     <div id="Tableinsights9" >
+                     </div>
+                     <div id="Tableinsights10" >
+                     </div>
+                     <div id="Tableinsights11" >
+                       </div>
+                     <div id="Tableinsights12" >
+                     </div>
+                     <div id="Tableinsights13" >
+                     </div>
+                     <div id="Tableinsights14" >
+                       </div>
+                     <div id="Tableinsights15" >
+                     </div>
+                     <div id="Tableinsights16" >
+                     </div>
+                     <div id="Tableinsights17" >
+                     </div>
+                  <div>
+                  </div>
+               </div>
+               <div class="container-fluid">
+                  <h4 class="section-heading text-center col-xs-12 col-sm-offset-2 col-sm-8">
+                   
+                  </h4>
+               </div>
+            </div>
+         </section>
+         </section>  
+        
+         
+         
+         
+        
+         </section>
+         </section>
+
+         <script type="text/javascript" src="static/js/d3.min.js"></script>
+      <script type="text/javascript" src="static/js/crossfilter.min.js"></script>
+      <script type="text/javascript" src="static/js/dc.min.js"></script>
+      <script type="text/javascript" src="static/js/queue.min.js"></script>
+      <script type="text/javascript" src="static/js/bitcoin.js"></script>
+         <!----- Footer ------>
+         
+         <footer class="footer text-center" style="height:100px; background: rgb(84,53,2);
+       background: linear-gradient(0deg, rgba(84,53,2,1) 27%, rgba(140,87,1,1) 56%, rgba(235,185,82,1) 87%); ">
+            <div class="container">
+               <div class="footer" style="margin-top:30px;">
+                  <p class="center" style="color:white ; font-size:20px;"> Cryptocurrency</p>
+               </div>
+            </div>
+         </footer>
+      </main>
+   </body>
+</html>
