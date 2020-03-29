@@ -1,0 +1,252 @@
+p{
+  font-family: montserrat;
+  color:#5a4a01;
+}
+a.navbar-brand {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+a .nav-link {
+  color:gold;
+}
+
+nav.navbar.navbar-expand-md.bg-dark.navbar-dark {
+  background-color: #080808!important;
+  
+}
+.row {
+  display: inline-block;
+  padding: 25px;
+}
+footer.footer.text-center{
+margin-top: 1150px;
+}
+
+#light {
+  fill:black;
+}
+
+
+
+
+.column {
+  flex: 50%;
+}
+
+.center {
+  text-align: center;
+  margin: 0 50px 0 50px ;
+  font-family: montserrat;
+}
+
+
+
+.section {
+  padding: 60px 50px;
+  font-family: montserrat;
+}
+
+.reset-all {
+  padding: 10px;
+}
+
+.dashboard-title{
+    padding: 15px
+}
+
+
+p{
+  font-size:15px;
+}
+
+h1.h1-intro{
+color:white;
+font-family: montserrat;
+font-size: 55px;
+font-weight: 700;
+text-shadow: black 3px 3px;
+}
+
+div.h1-position{
+margin-top: 250px;
+
+}
+
+div.intro-picture{
+  background-image: url('assets\skyline.png');
+  background-position: 50% 50%; background-size:cover; height:600px; margin-top: -20px;
+  }
+  h1.h1-intro{
+      color:white;
+      font-family: montserrat;
+      font-size: 55px;
+      font-weight: 700;
+      text-shadow: black 3px 3px;
+  }
+  
+  h4.h4-intro{
+      color:white;
+      font-family: montserrat;
+      text-shadow: black 1px 1px;
+      font-size: 25px;
+      font-weight: 600;
+  }
+  div.intro{
+          height: 700px;
+          
+      }
+
+      div.column.column-cryto-type {
+
+        float: left;
+        width: 20%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      div.row-cryto-type::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+     
+      
+      h3.crypto-names{
+       margin:0px;
+        color:white;
+      }
+      
+     section.pics-of-crytos{
+       
+       height:600px;
+       width:100%;
+       background: rgb(84,53,2);
+       background: linear-gradient(0deg, rgba(84,53,2,1) 27%, rgba(140,87,1,1) 56%, rgba(235,185,82,1) 87%);
+     }
+  
+   h3.h3-slider-explanation{
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-family: montserrat;
+    
+}
+
+p.p-market-facts{
+    font-size: 20px;
+    color:#5a4a01;
+    text-align: center;
+    font-family: montserrat;
+}
+div.market-fact{
+    margin-top: 150px;
+    vertical-align: middle;
+}
+h5.h5-market-fact{
+    vertical-align: middle;
+    text-align: center;
+    font-family: montserrat;
+    color:black;
+    font-size: 30px;
+    
+}
+div.bull-pic-position{
+    margin-left: 30%;
+}
+
+div.bear-pic-position{
+    margin-left: 30%;
+}
+
+section.explanation-to-user{
+    height:600px;
+}
+
+div.explanation-section{
+    margin-top: 100px;
+    margin-left:20px;
+}
+body {background-size: cover;}
+h3{
+    color:#070707;
+    font-family: montserrat ; 
+  
+}
+
+@media only screen and (max-width: 600px) {
+h1.h1-intro {
+  color: white;
+  font-family: montserrat;
+  font-size: 55px;
+  font-weight: 700;
+  text-shadow: black 3px 3px;
+  /* margin-bottom: 50px; */
+  margin-top: -150px;
+}
+
+li.span-nav a{
+  margin-left: 25px;
+}
+div.bull-pic-position {
+  margin-left: 0%; 
+}
+
+a.nav-link{
+  margin-left:0px !important;
+}
+footer.footer.text-center{
+  margin-top: 1850px;
+  width:120%;
+  }
+
+
+div.cryto-padding{
+  padding: 10px;
+}
+div.column.column-cryto-type {
+  float: left;
+  width: 100%;
+ padding:0px;
+}
+div.row.row-cryto-type{
+  margin-left: 0px!important;
+  margin-top: 60px!important;
+  width:100%;
+  padding:0px!important;
+}
+
+a.navbar-brand {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+section.container-fluid.pics-of-crytos{
+margin:0px;
+padding:0px;
+width: 110%;
+}
+
+div.column.column-cryto-type img{
+  width: 100px!important;
+  padding: 0px!important;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+div.explanation-section {
+  margin-top: 100px;
+ margin-left: 0px; 
+}
+
+div.bear-pic-position {
+  margin-left: 0%;
+}
+
+
+
+
+} 
+  
