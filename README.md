@@ -1,6 +1,6 @@
 ﻿# Bitcoin2ndMilestoneProject
 
-https://anthony-keogh.github.io/Bitcoin2ndMilestoneProject/
+https://anthony-keogh.github.io/bitcoin-front-end-project/
 
 Objective
 To create a interactive front-end responsive website that manipulates the data by using dc.js, d3.js and crossfilter. The data will then be interpreted through a series of graphs and charts to give the user great insight on the data moving forward.
