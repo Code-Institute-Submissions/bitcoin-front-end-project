@@ -154,7 +154,9 @@ function yearly_performance(ndx){
   function myFunction16() {
     document.getElementById("Tableinsights17").innerHTML = "(2020-01-01)(Source-CNN)Worried investors dumped stocks again Tuesday as American officials warned that it was only a matter of time before the coronavirus outbreak spreads to the United States.A day after its worst one-day slide in two years, the S&P 500 closed down 3 percent on Tuesday, a decline that put the index deeper in the red for 2020.At this point the market is resigning itself to the fact that the impact of the coronavirus is going to be well beyond China and the first quarter of 2020, said Yousef Abbasi, global market strategist at INTL FCStone, a financial services and brokerage firm.Since the outbreak first emerged in January, the primary concern among economists and investors has been how a temporary paralysis of the Chinese economy — the world’s second largest — would affect global supply chains. For weeks, American investors paid little mind: As recently as last Wednesday, the S&P 500 was at a record high.";
   };
-  
+  function myFunction17() {
+    document.getElementById("Tableinsights17").innerHTML = "(2020-01-01)(Source-CNN)Worried investors dumped stocks again Tuesday as American officials warned that it was only a matter of time before the coronavirus outbreak spreads to the United States.A day after its worst one-day slide in two years, the S&P 500 closed down 3 percent on Tuesday, a decline that put the index deeper in the red for 2020.At this point the market is resigning itself to the fact that the impact of the coronavirus is going to be well beyond China and the first quarter of 2020, said Yousef Abbasi, global market strategist at INTL FCStone, a financial services and brokerage firm.Since the outbreak first emerged in January, the primary concern among economists and investors has been how a temporary paralysis of the Chinese economy — the world’s second largest — would affect global supply chains. For weeks, American investors paid little mind: As recently as last Wednesday, the S&P 500 was at a record high.";
+  };
   
 
 
