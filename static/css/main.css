@@ -7,6 +7,10 @@ a.navbar-brand {
   margin-top: 10px;
 }
 
+body{
+ overflow:hidden!important; 
+} 
+  
 a .nav-link {
   color:gold;
 }
