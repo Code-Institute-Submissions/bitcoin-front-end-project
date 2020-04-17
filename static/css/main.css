@@ -10,6 +10,10 @@ a.navbar-brand {
 body{
   overflow-x: hidden!important; 
 }
+
+main{
+  overflow-x: hidden!important; 
+}
   
 a .nav-link {
   color:gold;
