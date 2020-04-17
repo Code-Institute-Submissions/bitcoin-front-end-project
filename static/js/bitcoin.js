@@ -56,8 +56,8 @@ var closeDimension = ndx.dimension(function(data) {
 
  
         dc.pieChart("#quarter1")
-            .width(30,width1)
-            .height(30)
+            .width(300,width1)
+            .height(300)
             .dimension(closeDimension)
             .group(closeGroup)
             .legend(dc.legend("Date"));
