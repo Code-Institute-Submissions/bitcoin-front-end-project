@@ -1,4 +1,4 @@
-﻿# Bitcoin2ndMilestoneProject
+﻿# bitcoin-front-end-project
 
 https://anthony-keogh.github.io/bitcoin-front-end-project/
 
