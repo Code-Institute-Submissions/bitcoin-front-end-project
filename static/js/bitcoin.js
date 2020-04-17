@@ -20,7 +20,7 @@ function show_close_data(ndx) {
   
 
   dc.barChart("#quarter")
-        .width(800,width)
+        .width(900,width)
         .height(300)
         .margins({
             top: 10,
