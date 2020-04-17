@@ -20,7 +20,7 @@ function show_close_data(ndx) {
   
 
   dc.barChart("#quarter")
-        .width(365,width)
+        .width(width)
         .height(300)
         .margins({
             top: 10,
@@ -56,8 +56,8 @@ var closeDimension = ndx.dimension(function(data) {
 
  
         dc.pieChart("#quarter1")
-            .width(300,width1)
-            .height(300)
+            .width(360,width1)
+            .height(360)
             .dimension(closeDimension)
             .group(closeGroup)
             .legend(dc.legend("Date"));
@@ -80,7 +80,7 @@ function yearly_performance(ndx){
    
    
   dc.lineChart("#yearly")
-   .width(365,width1)
+   .width(600,width1)
    .height(300)
    .x(d3.scale.ordinal())
 		.xUnits(dc.units.ordinal)
