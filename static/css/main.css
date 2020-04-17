@@ -11,7 +11,7 @@ a .nav-link {
   color:gold;
 }
 section.scrolling-menu {
-  height: 100px;
+ overflow-y: scroll;
   overflow: auto;
   white-space: nowrap;
 }
