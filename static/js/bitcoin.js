@@ -80,7 +80,7 @@ function yearly_performance(ndx){
    
    
   dc.lineChart("#yearly")
-   .width(600,width1)
+   .width(800,width1)
    .height(300)
    .x(d3.scale.ordinal())
 		.xUnits(dc.units.ordinal)
