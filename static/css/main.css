@@ -10,6 +10,20 @@ a.navbar-brand {
 a .nav-link {
   color:gold;
 }
+section.scrolling-menu {
+  
+  overflow: auto;
+  white-space: nowrap;
+}
+
+
+#customers{
+   
+  overflow: auto;
+  white-space: nowrap;
+}
+
+
 
 nav.navbar.navbar-expand-md.bg-dark.navbar-dark {
   background-color: #080808!important;
