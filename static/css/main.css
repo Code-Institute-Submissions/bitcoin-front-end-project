@@ -11,13 +11,13 @@ a .nav-link {
   color:gold;
 }
 section.scrolling-menu {
- overflow-y: scroll;
+ 
   overflow: auto;
   white-space: nowrap;
 }
 
 div..scrolling-menu {
- overflow-y: scroll;
+ 
   overflow: auto;
   white-space: nowrap;
 }
