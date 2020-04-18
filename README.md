@@ -53,6 +53,7 @@ Testing
 
 •	The testing was a lot more intense and scrutinised than the first milestone project because there was more variables to work with that all had to work in sync together for the code to run properly.
 
+•     I decided to use a scroll for the graphs on mobile as shrinking down the graph to a very small size would look unattractive on mobile
 
 Main Content
 
@@ -61,7 +62,7 @@ Home page
 
 •	Explanation of bear and bull market
 
-•	Types of crypto currencies 
+•	Types of crypto currencies (picure)
 
 Bitcoin page
 
@@ -99,15 +100,15 @@ UI
 
 COLOR SCHEME
 
-      #ebc652
+      #ebc652  Soft yellow.
       
-      #815101
+      #815101  Dark orange [Brown tone].
      
-      #543502
+      #543502  Very dark orange [Brown tone].
      
-      #020202
+      #020202  Very dark gray (mostly black).
 
-      #ffffff
+      #ffffff  White.
 
 
 
