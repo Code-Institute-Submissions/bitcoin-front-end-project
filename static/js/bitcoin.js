@@ -1,25 +1,25 @@
 queue()
-    .defer(d3.json, "data/bitcoinjson.json")
+    .defer(d3.json, "data/bitcoinjson.json")  ///what order the files are going to load
     .await(makeGraphs);
 function makeGraphs(error, stockData) {
     var theGraphdata = stockData;
-    var ndx = crossfilter(theGraphdata);
-    show_close_data(ndx); // Barchart
-    show_data(ndx);
+    var ndx = crossfilter(theGraphdata);   ////defining crossfilter so that i can sieve through large amounts of data
+    show_close_data(ndx); /// Barchart, connecting crossfilter with the graph
+    show_data(ndx);    ///connecting crossfilter with the graph 
     
-   yearly_performance(ndx);
-    dc.renderAll();
+   yearly_performance(ndx);   ///connecting crossfilter with the graph
+    dc.renderAll();    //// make all the graphs
 };
 function show_close_data(ndx) {
   var allStockClose  = ndx.dimension(dc.pluck('Close'));
 
   var total_Close = allStockClose.group().reduceSum(function(d) {return d.Close / 100;});
  
-  var width = document.getElementById("quarter").offsetWidth;
+  var width = document.getElementById("quarter").offsetWidth;  
 
   
-
-  dc.barChart("#quarter")
+////bar chart
+  dc.barChart("#quarter")  ///linking javascript with html
         .width(900,width)
         .height(300)
         .margins({
@@ -28,11 +28,11 @@ function show_close_data(ndx) {
             bottom: 50,
             left: 70
         })
-        .dimension(allStockClose)
+        .dimension(allStockClose)  ///the what of the graph
         .elasticX(true)
         
         .barPadding(0.25)
-        .group(total_Close)
+        .group(total_Close)   ///grouping the data for the graph
         .transitionDuration(500)
         .x(d3.scale.ordinal())
         
@@ -43,8 +43,7 @@ function show_close_data(ndx) {
         
         ;
         
-        ///everytime they click on each bar they are getting the average of all the close.figures put together
-        ///i need the dates to be put on the bar
+        
 };
 function show_data(ndx) {
 var closeDimension = ndx.dimension(function(data) { 
@@ -52,14 +51,15 @@ var closeDimension = ndx.dimension(function(data) {
  });
  var closeGroup = closeDimension.group().reduceCount();
 
- var width1 = document.getElementById("quarter").offsetWidth;
+ var width1 = document.getElementById("quarter").offsetWidth; 
 
+	////pie chart
  
-        dc.pieChart("#quarter1")
+        dc.pieChart("#quarter1")  ///linking javascript with html
             .width(300,width1)
             .height(300)
-            .dimension(closeDimension)
-            .group(closeGroup)
+            .dimension(closeDimension)    ///the what of the graph
+            .group(closeGroup)           ///grouping the data for the graph
             .legend(dc.legend("Date"));
             
 
@@ -77,9 +77,9 @@ function yearly_performance(ndx){
 
    var width1 = document.getElementById("yearly").offsetWidth;
 
+   ////line chart
    
-   
-  dc.lineChart("#yearly")
+  dc.lineChart("#yearly")  ///linking javascript with html
    .width(800,width1)
    .height(300)
    .x(d3.scale.ordinal())
@@ -88,8 +88,8 @@ function yearly_performance(ndx){
    
    .yAxisLabel("Close")
    .xAxisLabel("Date Starting from 2015")
-   .dimension(theOpenDimension)
-   .group(total_Close);
+   .dimension(theOpenDimension)         ///the what of the graph
+   .group(total_Close);                 ///grouping the data for the graph
    
 
 };
@@ -98,7 +98,7 @@ function yearly_performance(ndx){
 
 
 
-
+/////the insights, text that will show what happened on this quarter period from cnn news
 
 
   function myFunction0() {
