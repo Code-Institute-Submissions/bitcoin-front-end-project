@@ -139,7 +139,7 @@ Apart from the home page, the content was very similar for all the pages to give
 There was no need to put any real content on the footer as it would take away from the content on the main body of the website as the enjoyment of interacting with the charts was my primary goal.
 
 # -------Project Deployment---------
-
+I did not need to deploy it locally, but i did deploy through the github pages in settings
 
 # --------Credits and Acknowledgements------------
 
