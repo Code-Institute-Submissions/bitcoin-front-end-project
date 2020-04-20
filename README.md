@@ -2,11 +2,11 @@
 
 https://anthony-keogh.github.io/bitcoin-front-end-project/
 
-Objective
+# -------Objective---------
 To create a interactive front-end responsive website that manipulates the data by using dc.js, d3.js and crossfilter. The data will then be interpreted through a series of graphs and charts to give the user great insight on the data moving forward.
 
 
-Project’s Core Functionality
+# ---------Project’s Core Functionality---------
 
 Great insights
 The main function of the website was to manipulate data to give the user great insight into how the data can benefit them and give them a better understanding of the market. 
@@ -17,7 +17,7 @@ The charts and graphs built have to be top quality for the user and the overall 
 Marketing Persuasion
 To give the user a great content in terms data science insights from the stock market to persuade the user to come back and use on a regular basis. 
 
-Technologies Used
+# -------Technologies Used------------
 
 •	Html5,
 
@@ -48,30 +48,30 @@ Technologies Used
 •	cssgradient.io
 
 
-Testing
+# ----------Testing-----------
 •	Chrome and Microsoft Explorer developer tools were used the most for testing the responsiveness of the interactive website from desktop to mobile and from browser to browser to check for any errors. 
 
 •	The testing was a lot more intense and scrutinised than the first milestone project because there was more variables to work with that all had to work in sync together for the code to run properly.
 
 •     I decided to use a scroll for the graphs on mobile as shrinking down the graph to a very small size would look unattractive on mobile
 
-Main Content
+# ----------Main Content-----------
 
-Home page
+# Home page
 •	Introduction to stock market
 
 •	Explanation of bear and bull market
 
 •	Types of crypto currencies (picure)
 
-Bitcoin page
+# Bitcoin page
 
 •	Introduction
 
 •	Graphs and charts
 
 
-UX 
+# --------User Experience-----------
 •	Each graph is unique in design and function
 
 •	Stunning and professional looking charts that were easy to understand for the user.  Different interpretations of the graphs while overall quality of design was at a high level and eye catching and therefore increase the chances of the user returning.
@@ -86,7 +86,7 @@ If the user finds it hard to read the data on the charts then this will decrease
 I have designed a clear and concise wireframe of how the website will be laid out before I started coding the website. This was to insure i stuck to the main goals and objectives. 
 
 
-UI 
+# --------User Interface----------
 
 •	The user interface for this website had to be as straightforward and effective to enhance the users enjoying when they browse or interact with the charts.
 
@@ -98,7 +98,7 @@ UI
 
 
 
-COLOR SCHEME
+# ------COLOR SCHEME------
 
       #ebc652  Soft yellow.
       
@@ -113,7 +113,7 @@ COLOR SCHEME
 
 
 
-File Management
+# -------File Management----------
 
 •	Assets(folder)
 
@@ -128,7 +128,7 @@ File Management
 •	Wireframe
 
 
-Project Approach
+# --------Project Approach----------
 •	Navigation bar
 The Navigation bars were all in sync and worked well from page to page without any confusion for the user. 
 
@@ -138,10 +138,10 @@ Apart from the home page, the content was very similar for all the pages to give
 •	Footer
 There was no need to put any real content on the footer as it would take away from the content on the main body of the website as the enjoyment of interacting with the charts was my primary goal.
 
-Project Deployment
+# -------Project Deployment---------
 
 
-Credits and Acknowledgements
+# --------Credits and Acknowledgements------------
 
 •	Javacript, CSS, Bootstrap - W3schools
 
