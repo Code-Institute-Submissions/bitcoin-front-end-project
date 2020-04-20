@@ -156,6 +156,10 @@ I did not need to deploy it locally, but i did deploy through the github pages i
 
 •	CNN 
 
+•     https://www.invesco.com/us-rest/contentdetail?contentId=049233173f5c3510VgnVCM100000c2f1bf0aRCRD&audienceType=investors
+
+•     https://www.investopedia.com/terms/c/cryptocurrency.asp
+
 •	cssgradient.io
 
 •	Stack overflow 
