@@ -58,6 +58,9 @@ To give the user a great content in terms data science insights from the stock m
 # ----------Main Content-----------
 
 # Home page
+
+https://anthony-keogh.github.io/bitcoin-front-end-project/index.html
+
 •	Introduction to stock market
 
 •	Explanation of bear and bull market
@@ -65,6 +68,8 @@ To give the user a great content in terms data science insights from the stock m
 •	Types of crypto currencies (picure)
 
 # Bitcoin page
+
+https://anthony-keogh.github.io/bitcoin-front-end-project/bitcoin.html
 
 •	Introduction
 
