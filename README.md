@@ -10,13 +10,16 @@ To create a interactive front-end responsive website that manipulates the data b
 
 # Project’s Core Functionality
 
-Great insights
+Great insights:
+
 The main function of the website was to manipulate data to give the user great insight into how the data can benefit them and give them a better understanding of the market. 
 
-Stunning design and slick charts
+Stunning design and slick charts:
+
 The charts and graphs built have to be top quality for the user and the overall design of the website has to match this standard for the user to return. 
 
-Marketing Persuasion
+Marketing Persuasion:
+
 To give the user a great content in terms data science insights from the stock market to persuade the user to come back and use on a regular basis. 
 
 # Technologies Used
@@ -90,13 +93,16 @@ https://anthony-keogh.github.io/bitcoin-front-end-project/bitcoin.html
 
 •	Stunning and professional looking charts that were easy to understand for the user.  Different interpretations of the graphs while overall quality of design was at a high level and eye catching and therefore increase the chances of the user returning.
 
-•	user-friendly
+•	user-friendly:
+
 It was critical to make the graphs and charts as user friendly as possible so the user can understand the charts better without getting distracted or turned off by the poor quality of its design and the quality of the charts interaction. 
 
-•	Easy to read and interpret 
+•	Easy to read and interpret :
+
 If the user finds it hard to read the data on the charts then this will decrease the user experience of the website, so a lot of time and effort was put in to making it a top quality easily read interactive website.
 
-•	Wireframe diagram
+•	Wireframe diagram:
+
 I have designed a clear and concise wireframe of how the website will be laid out before I started coding the website. This was to insure i stuck to the main goals and objectives. 
 
 
