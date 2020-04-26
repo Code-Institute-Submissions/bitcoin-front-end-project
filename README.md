@@ -48,6 +48,11 @@ To give the user a great content in terms data science insights from the stock m
 •	Cssgradient.io
 
 
+# Wireframe
+
+https://github.com/anthony-keogh/bitcoin-front-end-project/blob/master/bitcoin-wireframe.png
+
+
 # Testing
 •	Chrome and Microsoft Explorer developer tools were used the most for testing the responsiveness of the interactive website from desktop to mobile and from browser to browser to check for any errors. 
 
