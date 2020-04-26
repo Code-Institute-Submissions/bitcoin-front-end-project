@@ -19,33 +19,35 @@ To give the user a great content in terms data science insights from the stock m
 
 # Technologies Used
 
-•	Html5
+       •	Html5
 
-•	Css 
+       •	Css 
 
-•	Javascript 
+       •	Javascript 
 
-•	Bootstrap
+       •	Bootstrap
 
-•	Flexbox
+       •	Flexbox
 
-•	Chrome and Firefox developer tools 
+       •	Chrome and Firefox developer tools 
 
-•	Visual studio code (Microsoft)
+       •	Visual studio code (Microsoft)
 
-•	jQuery
+       •	jQuery
 
-•	D3.js
+       •	D3.js
 
-•	Dc.js
+       •	Dc.js
 
-•	Crossfilter
+       •	Crossfilter
 
-•	Yahoo finance
+       •	Yahoo finance
 
-•	Photoshop (Adobe)
+       •	Photoshop (Adobe)
+       
+       •    Illustrator(Adobe)
 
-•	Cssgradient.io
+       •	Cssgradient.io
 
 
 # Wireframe
@@ -64,21 +66,21 @@ https://github.com/anthony-keogh/bitcoin-front-end-project/blob/master/bitcoin-w
 
 # Home page
 
-https://anthony-keogh.github.io/bitcoin-front-end-project/index.html
+         https://anthony-keogh.github.io/bitcoin-front-end-project/index.html
 
-•	Introduction to stock market
+         •	Introduction to stock market
 
-•	Explanation of bear and bull market
+         •	Explanation of bear and bull market
 
-•	Types of crypto currencies (picure)
+         •	Types of crypto currencies (picure)
 
 # Bitcoin page
 
 https://anthony-keogh.github.io/bitcoin-front-end-project/bitcoin.html
 
-•	Introduction
+         •	Introduction
 
-•	Graphs and charts
+         •	Graphs and charts
 
 
 # User Experience
@@ -125,28 +127,28 @@ I have designed a clear and concise wireframe of how the website will be laid ou
 
 # File Management
 
-•	Assets(folder)
+      •	Assets(folder)
 
-•	Data(folder)
+      •	Data(folder)
 
-•	Static (folder)
+      •	Static (folder)
 
-•	Templates(folder)
+      •	Templates(folder)
 
-•	Readme file
+      •	Readme file
 
-•	Wireframe
+      •	Wireframe
 
 
 # Project Approach
-•	Navigation bar
-The Navigation bars were all in sync and worked well from page to page without any confusion for the user. 
+      •	Navigation bar
+                 The Navigation bars were all in sync and worked well from page to page without any confusion for the user. 
 
-•	Main body
-Apart from the home page, the content was very similar for all the pages to give the user familiarity and a common theme to interactive theme. This will enhance the user’s enjoyment while also lowering the difficulty in understanding the content and persuade them to come back and use the website again.
+      •	Main body
+                 Apart from the home page, the content was very similar for all the pages to give the user familiarity and a common                      theme to interactive theme. This will enhance the user’s enjoyment while also lowering the difficulty in understanding                  the content and persuade them to come back and use the website again.
 
-•	Footer
-There was no need to put any real content on the footer as it would take away from the content on the main body of the website as the enjoyment of interacting with the charts was my primary goal.
+      •	Footer
+                 There was no need to put any real content on the footer as it would take away from the content on the main body of the                  website as the enjoyment of interacting with the charts was my primary goal.
 
 # Project Deployment
 I work on the website through VS code were i tested all functions, features and bugs
@@ -154,26 +156,26 @@ I did not need to deploy it locally, but i did deploy through the github pages i
 
 # Credits and Acknowledgements
 
-•	Javacript, CSS, Bootstrap - W3schools
+       •	Javacript, CSS, Bootstrap - W3schools
 
-•	Dc.js, D3.js - Tutorialspoint
+       •	Dc.js, D3.js - Tutorialspoint
 
-•	Quora
+       •	Quora
 
-•	CNN 
+       •	CNN 
 
-•     https://www.invesco.com/us-rest/contentdetail?contentId=049233173f5c3510VgnVCM100000c2f1bf0aRCRD&audienceType=investors
+       •     https://www.invesco.com/us-rest/contentdetail?contentId=049233173f5c3510VgnVCM100000c2f1bf0aRCRD&audienceType=investors
 
-•     https://www.investopedia.com/terms/c/cryptocurrency.asp
+       •     https://www.investopedia.com/terms/c/cryptocurrency.asp
 
-•	cssgradient.io
+       •	cssgradient.io
 
-•	Stack overflow 
+       •	Stack overflow 
 
-•	CSS Tutorial - Tutorialspoint 
+       •	CSS Tutorial - Tutorialspoint 
 
-•	www.csstutorial.net
+       •	www.csstutorial.net
 
-•	developer.mozilla.org
+       •	developer.mozilla.org
 
 
