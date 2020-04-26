@@ -1,4 +1,6 @@
 ﻿# Interactive Front End Development with Javascript : bitcoin-front-end-project
+ 
+# Live Website
 
 https://anthony-keogh.github.io/bitcoin-front-end-project/
 
@@ -84,7 +86,7 @@ https://anthony-keogh.github.io/bitcoin-front-end-project/bitcoin.html
 
 
 # User Experience
-•	Each graph is unique in design and function
+•	Each graph is unique in design and function.
 
 •	Stunning and professional looking charts that were easy to understand for the user.  Different interpretations of the graphs while overall quality of design was at a high level and eye catching and therefore increase the chances of the user returning.
 
